@@ -19,6 +19,5 @@ myfile.write('\n'+'\n')
 
 for image in images:
         myfile.write(image[0:3] + ".vl: " + image + " " + cmd + '\n')
-        myfile.write("    " + cmd + " " + image + " > " + image[0:3] + ".vl" + '\n')
+        myfile.write("  " + cmd + " " + image + " > " + image[0:3] + ".vl" + '\n')
 myfile.close()
-
